@@ -140,3 +140,70 @@ footer {
 
     
 }
+
+@media screen and (max-width: 750px) {
+    
+    .small-card-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+    article h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    
+    article button {
+        font-size: 3rem;
+    }
+    .small-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .big-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    section h2 {
+        font-size: 4rem;
+    }
+    article h3 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 2.3rem;
+    }
+
+    footer {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: column;
+        align-items: flex-start;
+        padding: 4rem;
+        
+        section {
+            margin-bottom: 3rem;
+            margin-left: 15rem;
+        }
+    }
+    
+}
